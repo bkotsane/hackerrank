@@ -27,6 +27,10 @@ n can be fitted in:
 If there is more than one appropriate data type, print each one on its own line and order them by size (i.e.: ).
 
 If the number cannot be stored in one of the four aforementioned primitives, print the line:
+
+note! 
+Signed: [Math.pow(2,n)-1 ] left most digit is for either /0/ positive or /1/ negative. So actual digits used for value are n-1.
+Unsigned: Math.pow(2,n)
 **/
 
 import java.util.*;
