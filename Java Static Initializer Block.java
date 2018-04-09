@@ -38,7 +38,8 @@ public class Solution {
             else flag = true ; 
         } catch (Exception e) { 
         System.out.println("java.lang.Exception: Breadth and height must be positive"); 
-        }  
+        } 
+	sc.close()
     }
     public static void main(String[] args){
 		if(flag){
